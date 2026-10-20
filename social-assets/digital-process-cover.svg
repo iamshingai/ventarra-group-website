@@ -1,52 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
   <title id="title">A clear process, from listening to delivery</title>
-  <desc id="desc">Three connected blue cards show listening, planning, and making work together.</desc>
+  <desc id="desc">Three connected steps for listening, planning, and making, over the Ventarra Digital workspace photograph.</desc>
   <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#092746"/><stop offset=".55" stop-color="#104d83"/><stop offset="1" stop-color="#087b9d"/></linearGradient>
-    <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffe29a"/><stop offset="1" stop-color="#ffb84d"/></linearGradient>
-    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff" stop-opacity=".98"/><stop offset="1" stop-color="#e9f5ff" stop-opacity=".96"/></linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff" stop-opacity=".88"/><stop offset="1" stop-color="#edf6ff" stop-opacity=".80"/></linearGradient>
     <linearGradient id="route" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#67e2e2"/><stop offset=".55" stop-color="#49a9ff"/><stop offset="1" stop-color="#ffd071"/></linearGradient>
-    <pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#d9efff" stroke-opacity=".07"/></pattern>
-    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#031a31" flood-opacity=".34"/></filter>
-    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="12" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#031a31" flood-opacity=".35"/></filter>
   </defs>
-  <rect width="1600" height="900" fill="url(#sky)"/>
-  <rect width="1600" height="900" fill="url(#grid)"/>
-  <circle cx="1300" cy="170" r="93" fill="url(#sun)" opacity=".96"/>
-  <circle cx="1300" cy="170" r="142" fill="none" stroke="#ffd782" stroke-opacity=".2" stroke-width="2"/>
-  <circle cx="1300" cy="170" r="194" fill="none" stroke="#7bdde9" stroke-opacity=".13" stroke-width="2"/>
-  <path d="M0 626C278 562 424 694 690 620s428-88 910 14v266H0Z" fill="#0a355e" opacity=".72"/>
-  <path d="M0 701c270-75 425 50 677-6s487-114 923-5" fill="none" stroke="#66dce6" stroke-opacity=".16" stroke-width="3"/>
-  <text x="96" y="110" fill="#bcecff" font-family="Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="6">A SIMPLE PROCESS</text>
-  <text x="96" y="155" fill="#fff" fill-opacity=".68" font-family="Arial,sans-serif" font-size="18" letter-spacing="2">GOOD WORK STARTS WITH A CLEAR CONVERSATION</text>
   <path d="M264 514C420 438 522 438 675 514s260 76 414 0 205-76 276-28" fill="none" stroke="#061f3c" stroke-opacity=".5" stroke-width="28" stroke-linecap="round"/>
-  <path d="M264 500C420 424 522 424 675 500s260 76 414 0 205-76 276-28" fill="none" stroke="url(#route)" stroke-width="8" stroke-linecap="round" filter="url(#glow)"/>
+  <path d="M264 500C420 424 522 424 675 500s260 76 414 0 205-76 276-28" fill="none" stroke="url(#route)" stroke-width="8" stroke-linecap="round"/>
   <g filter="url(#shadow)">
     <g transform="translate(150 292)">
-      <rect width="350" height="370" rx="24" fill="url(#card)"/>
-      <circle cx="72" cy="72" r="35" fill="#d9f7f5"/>
+      <rect width="350" height="370" rx="24" fill="url(#card)" stroke="#fff" stroke-opacity=".72" stroke-width="2"/>
+      <circle cx="72" cy="72" r="35" fill="#d9f7f5" fill-opacity=".96"/>
       <path d="M57 68a15 15 0 0 1 30 0v6a15 15 0 0 1-30 0Zm-9 5v4a24 24 0 0 0 48 0v-4m-24 24v15m-14 0h28" fill="none" stroke="#079aa6" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-      <text x="48" y="159" fill="#4381bb" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="3">01 / LISTEN</text>
-      <path d="M48 193h246" stroke="#d5e7f5" stroke-width="2"/>
-      <path d="M52 237h205m-205 30h161m-161 30h187" stroke="#a7c5dc" stroke-width="10" stroke-linecap="round"/>
+      <text x="48" y="159" fill="#28659a" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="3">01 / LISTEN</text>
+      <path d="M48 193h246" stroke="#86a9c4" stroke-opacity=".65" stroke-width="2"/>
+      <path d="M52 237h205m-205 30h161m-161 30h187" stroke="#7898b2" stroke-opacity=".72" stroke-width="10" stroke-linecap="round"/>
       <circle cx="296" cy="321" r="18" fill="#12b9bf"/><path d="m288 321 6 6 11-13" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
     <g transform="translate(625 350)">
-      <rect width="350" height="370" rx="24" fill="url(#card)"/>
-      <circle cx="72" cy="72" r="35" fill="#e0edff"/>
+      <rect width="350" height="370" rx="24" fill="url(#card)" stroke="#fff" stroke-opacity=".72" stroke-width="2"/>
+      <circle cx="72" cy="72" r="35" fill="#e0edff" fill-opacity=".96"/>
       <path d="M58 53h29a8 8 0 0 1 8 8v29a8 8 0 0 1-8 8H58a8 8 0 0 1-8-8V61a8 8 0 0 1 8-8Zm8 18 7 7 13-15m-28 36h31" fill="none" stroke="#246fd1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-      <text x="48" y="159" fill="#4381bb" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="3">02 / PLAN</text>
-      <path d="M48 193h246" stroke="#d5e7f5" stroke-width="2"/>
-      <path d="M52 237h205m-205 30h161m-161 30h187" stroke="#a7c5dc" stroke-width="10" stroke-linecap="round"/>
+      <text x="48" y="159" fill="#28659a" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="3">02 / PLAN</text>
+      <path d="M48 193h246" stroke="#86a9c4" stroke-opacity=".65" stroke-width="2"/>
+      <path d="M52 237h205m-205 30h161m-161 30h187" stroke="#7898b2" stroke-opacity=".72" stroke-width="10" stroke-linecap="round"/>
       <circle cx="296" cy="321" r="18" fill="#277ee2"/><path d="m288 321 6 6 11-13" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
     <g transform="translate(1100 292)">
-      <rect width="350" height="370" rx="24" fill="url(#card)"/>
-      <circle cx="72" cy="72" r="35" fill="#fff0d5"/>
-      <path d="m72 49 7 16 17 7-17 7-7 17-7-17-17-7 17-7Zm28-4 3 8 8 3-8 3-3 8-3-8-8-3 8-3Zm-57 48 4 9 9 4-9 4-4 9-4-9-9-4 9-4Z" fill="#e69d28"/>
-      <text x="48" y="159" fill="#4381bb" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="3">03 / MAKE</text>
-      <path d="M48 193h246" stroke="#d5e7f5" stroke-width="2"/>
-      <path d="M52 237h205m-205 30h161m-161 30h187" stroke="#a7c5dc" stroke-width="10" stroke-linecap="round"/>
+      <rect width="350" height="370" rx="24" fill="url(#card)" stroke="#fff" stroke-opacity=".72" stroke-width="2"/>
+      <circle cx="72" cy="72" r="35" fill="#fff0d5" fill-opacity=".96"/>
+      <path d="m72 49 7 16 17 7-17 7-7 17-7-17-17-7 17-7Zm28-4 3 8 8 3-8 3-3 8-3-8-8-3 8-3Zm-57 48 4 9 9 4-9 4-4 9-4-9-9-4 9-4Z" fill="#d88d20"/>
+      <text x="48" y="159" fill="#28659a" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="3">03 / MAKE</text>
+      <path d="M48 193h246" stroke="#86a9c4" stroke-opacity=".65" stroke-width="2"/>
+      <path d="M52 237h205m-205 30h161m-161 30h187" stroke="#7898b2" stroke-opacity=".72" stroke-width="10" stroke-linecap="round"/>
       <circle cx="296" cy="321" r="18" fill="#e6a43b"/><path d="m288 321 6 6 11-13" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
   </g>

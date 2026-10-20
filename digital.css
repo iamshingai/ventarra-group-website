@@ -1,6 +1,87 @@
 :root{--digital-ink:#193c72;--digital-blue:#347be9;--digital-cyan:#39c9d1;--digital-soft:#eaf2ff;--digital-paper:#f4f7fc}.digital-site{background:#f8f9fb;color:var(--digital-ink)}.digital-site .site-header{background:#f8f9fb;border-bottom-color:#e2e9f3}.digital-brand{width:208px;display:block}.digital-brand img{width:100%;height:auto;display:block}.digital-site .site-nav>a:not(.nav-cta){color:#526987}.digital-site .site-nav>a:hover,.digital-site .digital-text-link:hover{color:var(--digital-blue)}.digital-site .nav-cta{background:var(--digital-ink)}.digital-site .nav-cta span{color:#62d6d2}.digital-site .menu-toggle span{background:var(--digital-ink)}.digital-hero{padding:76px 7.1% 46px;display:grid;grid-template-columns:1fr .94fr;column-gap:6%;align-items:center;min-height:590px}.digital-hero-copy{padding:20px 0}.digital-eyebrow{margin:0 0 20px;color:#4775bc;font-size:9px;font-weight:700;letter-spacing:1.6px;display:flex;align-items:center;gap:9px}.digital-eyebrow>span{height:7px;width:7px;border-radius:50%;background:#48cfc9;display:inline-block}.digital-hero h1{font:600 clamp(48px,5.3vw,70px)/1.02 var(--display);letter-spacing:-4px;margin:0;color:#193c72}.digital-hero h1 em{font:400 1em/1 var(--serif);color:#347be9}.digital-lead{color:#526987;font-size:14px;line-height:1.85;max-width:460px;margin:24px 0 27px}.digital-actions{display:flex;align-items:center;gap:22px}.digital-button{display:inline-flex;align-items:center;gap:24px;background:#255dce;color:#fff;padding:15px 18px;font-size:11px;font-weight:700;box-shadow:0 8px 20px #3678df25}.digital-button span{color:#7ce2dd;font-size:15px}.digital-text-link{font-size:11px;font-weight:700;color:#526987}.digital-text-link span{padding-left:8px}.digital-proof{display:flex;align-items:center;gap:10px;color:#798ba5;font-size:9px;margin-top:52px}.digital-proof i{display:block;width:28px;height:1px;background:#9aacc5}.digital-art{min-height:405px;position:relative;overflow:hidden;background:#dfeaff}.digital-art-sun{position:absolute;width:139px;height:139px;right:18%;top:52px;border-radius:50%;background:#ffd27a;box-shadow:0 0 0 23px #ffd27a2b}.digital-art-orbit{position:absolute;border:1px solid #397de232;border-radius:50%;z-index:1}.orbit-a{width:310px;height:310px;right:8%;top:-32px}.orbit-b{width:420px;height:420px;right:-7%;top:-86px}.digital-signal{position:absolute;top:105px;left:22%;z-index:2;display:flex;align-items:center;gap:8px;transform:rotate(-37deg)}.digital-signal i{display:block;width:4px;height:22px;border-radius:6px;background:#3183da}.digital-signal i:nth-child(2),.digital-signal i:nth-child(4){height:41px}.digital-signal i:nth-child(3){height:63px;background:#36c8c3}.digital-land{position:absolute;bottom:-82px;width:120%;height:205px;left:-6%;border-radius:50% 45% 0 0}.land-a{background:#91bbed;transform:rotate(-8deg);bottom:-37px}.land-b{background:#4d85d0;transform:rotate(7deg);bottom:-103px;left:-11%}.land-c{background:#1e477e;transform:rotate(-3deg);bottom:-163px}.digital-art-note{position:absolute;z-index:3;left:22px;top:21px;right:22px;display:flex;justify-content:space-between;color:#456a9e;font-size:8px;letter-spacing:1.4px}.digital-art-note b{font-weight:600}.digital-services{background:#eef3fb;padding-top:92px;padding-bottom:99px}.digital-heading{display:grid;grid-template-columns:1.25fr 1fr;column-gap:10%;align-items:end;margin-bottom:37px}.digital-heading .digital-eyebrow{grid-column:1/-1;margin-bottom:16px}.digital-heading h2,.digital-approach h2,.founder-copy h2,.digital-contact h2{font:600 44px/1.08 var(--display);letter-spacing:-2.4px;margin:0;color:#193c72}.digital-heading>p:last-child{font-size:11px;color:#647a98;line-height:1.8;margin:0 0 3px;max-width:340px}.digital-service-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.digital-service{position:relative;background:#fff;padding:25px 25px 27px;min-height:220px;border:1px solid #e5ebf4}.service-no{font-size:9px;color:#8194af;letter-spacing:1px}.service-symbol{position:absolute;right:23px;top:19px;width:34px;height:34px;display:grid;place-items:center;border-radius:50%;font-size:18px;background:#e6efff;color:#347be9}.symbol-social{background:#e2f7f4;color:#21a99e}.symbol-creative{background:#fff0e5;color:#ed8655}.symbol-campaign{background:#eeeaff;color:#785fda}.service-tag{font-size:8px;letter-spacing:1.3px;font-weight:700;color:#6c88af;margin:22px 0 8px}.digital-service h3{font:600 21px/1.24 var(--display);letter-spacing:-.6px;color:#193c72;margin:0 0 10px;max-width:390px}.digital-service>p:not(.service-tag){font-size:10px;line-height:1.8;color:#657994;margin:0;max-width:460px}.digital-service .budget-note{margin-top:12px!important;color:#3d6298!important;font-size:9px!important;border-left:2px solid #54cfc9;padding-left:10px}.campaign-service{background:#e7efff}.digital-approach{padding-top:100px;padding-bottom:102px;display:grid;grid-template-columns:1fr 1.2fr;gap:8%;align-items:center;background:#fff}.digital-approach-art{height:320px;position:relative;overflow:hidden;background:#eaf2ff;display:grid;place-items:center}.approach-sun{position:absolute;width:105px;height:105px;border-radius:50%;background:#ffd27a;top:45px;left:calc(50% - 52px)}.approach-arc{position:absolute;border:2px solid #3c83ed;border-bottom:0;border-radius:180px 180px 0 0;bottom:45px}.arc-one{width:220px;height:140px}.arc-two{width:160px;height:100px;border-color:#37c8c4;bottom:45px}.approach-v{font:italic 62px var(--serif);color:#fff;z-index:2;margin-top:115px;text-shadow:0 2px 8px #1d4c9130}.digital-approach-copy .digital-eyebrow{margin-bottom:16px}.digital-approach h2{font-size:40px}.process-list{margin-top:26px;display:grid;gap:15px}.process-list>div{display:grid;grid-template-columns:31px 1fr;gap:11px;font-size:10px;line-height:1.8;color:#647994;border-top:1px solid #e1e9f3;padding-top:12px}.process-list b{color:#347be9;font-size:9px}.process-list strong{color:#193c72}.founder-section{padding-top:82px;padding-bottom:90px;background:#eaf2ff;display:grid;grid-template-columns:245px 1fr;gap:7%;align-items:center}.founder-photo{height:245px;width:245px;border-radius:50%;background:linear-gradient(145deg,#bed2f4,#8fb7eb);border:7px solid #fff;display:grid;place-items:center;position:relative;color:#3f69a2;font-size:12px;letter-spacing:2px;text-align:center;line-height:1.6}.founder-photo i{position:absolute;right:11px;bottom:11px;width:38px;height:38px;border-radius:50%;background:#2868dc;color:#fff;display:grid;place-items:center;font-style:normal;font-size:22px}.founder-copy{max-width:610px}.founder-copy .digital-eyebrow{margin-bottom:15px}.founder-copy h2{font-size:40px}.founder-copy>p:not(.digital-eyebrow):not(.founder-edit-note){font-size:11px;line-height:1.8;color:#586f90;max-width:490px;margin:17px 0 18px}.founder-name{font:600 19px var(--display);color:#193c72}.founder-title{font-size:8px;letter-spacing:1.3px;color:#5278b1;margin-top:5px}.founder-copy .founder-edit-note{font-size:9px;color:#7187a5;margin:15px 0 0}.digital-contact{text-align:center;padding-top:83px;padding-bottom:88px;background:#193c72;color:#fff}.digital-contact .digital-eyebrow{justify-content:center;color:#a9c8fb}.digital-contact .digital-eyebrow>span{background:#67ddd5}.digital-contact h2{color:#fff;font-size:45px}.digital-contact>p:not(.digital-eyebrow){font-size:11px;color:#ceddf5;line-height:1.8;margin:15px auto 21px;max-width:420px}.digital-contact .digital-button{background:#fff;color:#193c72}.digital-contact .digital-button span{color:#2c9fbd}.digital-footer{min-height:76px;padding:20px 7%;display:flex;align-items:center;gap:25px;background:#f8f9fb;color:#6d809c;font-size:9px}.digital-footer>a{font-weight:700;color:#2d69cd}.digital-footer>span:nth-child(2){margin-left:auto;letter-spacing:1px;font-size:8px}.digital-footer>span:last-child{border-left:1px solid #d9e2ef;padding-left:20px}
 @media(max-width:800px){.digital-hero{padding:55px 6% 35px;min-height:530px;column-gap:4%}.digital-hero h1{font-size:52px}.digital-art{min-height:350px}.digital-heading h2{font-size:38px}.digital-approach{gap:5%}.founder-section{grid-template-columns:190px 1fr;gap:5%}.founder-photo{width:190px;height:190px}}
 @media(max-width:600px){.digital-brand{width:175px}.digital-site .site-nav{background:#f8f9fb}.digital-hero{display:flex;flex-direction:column;padding:43px 6% 25px;gap:30px;align-items:stretch}.digital-hero h1{font-size:47px;letter-spacing:-2.8px}.digital-lead{font-size:12px;margin:18px 0 20px}.digital-actions{gap:13px}.digital-button{padding:14px;font-size:10px;gap:13px}.digital-text-link{font-size:10px}.digital-proof{margin-top:28px}.digital-art{min-height:300px}.digital-services{padding-top:67px;padding-bottom:68px}.digital-heading{display:block;margin-bottom:24px}.digital-heading h2,.digital-approach h2,.founder-copy h2,.digital-contact h2{font-size:36px;letter-spacing:-1.8px}.digital-heading>p:last-child{margin-top:13px}.digital-service-grid{grid-template-columns:1fr}.digital-service{min-height:0;padding:21px}.digital-service h3{font-size:20px}.digital-approach{display:flex;flex-direction:column;padding-top:67px;padding-bottom:68px;gap:25px}.digital-approach-art{height:240px;width:100%}.founder-section{display:flex;flex-direction:column;align-items:flex-start;padding-top:67px;padding-bottom:68px;gap:25px}.founder-photo{width:160px;height:160px}.founder-copy h2{font-size:35px}.digital-contact{padding-top:66px;padding-bottom:70px}.digital-footer{padding:19px 6%;display:grid;grid-template-columns:1fr auto;gap:13px}.digital-footer>span:nth-child(2){margin-left:0;grid-column:1;grid-row:2}.digital-footer>span:last-child{grid-column:2;grid-row:1;border:0;padding:0}.digital-footer>a{grid-column:1;grid-row:1}}
+
+/* Richer blue and teal accents with the approved sunrise artwork in the hero. */
+:root{--digital-ink:#103763;--digital-blue:#176fdf;--digital-cyan:#14b9c6;--digital-soft:#e4f2ff;--digital-paper:#f2f8ff}
+.digital-site{background:#f5f9fd}
+.digital-site .site-header{background:#f5f9fd;border-bottom-color:#d4e4f1}
+.digital-site .nav-cta{background:#103763}
+.digital-site .nav-cta span{color:#5be0dd}
+.digital-hero h1 em{color:#1674e4}
+.digital-eyebrow{color:#246fb6}
+.digital-button{background:#176bd4;box-shadow:0 8px 20px #176bd42b}
+.digital-button span{color:#78eee5}
+.digital-art-cover{aspect-ratio:16/9;min-height:0;height:auto;overflow:hidden;background:#082744;box-shadow:0 24px 60px #0c315520}
+.digital-art-cover img{display:block;width:100%;height:100%;aspect-ratio:16/9;object-fit:cover;object-position:center}
+.digital-services,.founder-section{background:#eaf4ff}
+.digital-contact{background:linear-gradient(120deg,#103763,#075b89)}
+.digital-contact .digital-button{background:#fff;color:#103763}
+.digital-service{border-color:#d5e5f3}
+
+/* Carry the digital cover's navy, electric blue, and cyan through every section. */
+.digital-site{background:#f3f8fd;color:#103763}
+.digital-site .site-header{background:#f6faff;border-bottom-color:#d4e4f1}
+.digital-site .site-nav>a:not(.nav-cta){color:#315b82}
+.digital-site .site-nav>a:hover,.digital-text-link:hover{color:#087ee1}
+.digital-site .nav-cta{background:#103763;color:#fff}
+.digital-site .nav-cta span{color:#66e5df}
+.digital-hero{background:linear-gradient(118deg,#f4f9ff 0%,#e9f4ff 60%,#eefcff 100%)}
+.digital-hero h1{color:#103763}
+.digital-hero h1 em{color:#1474df}
+.digital-lead,.digital-heading>p:last-child,.digital-service>p:not(.service-no):not(.service-tag){color:#3c6083}
+.digital-eyebrow{color:#176db7}
+.digital-eyebrow>span{background:#12c2c8}
+.digital-button{background:linear-gradient(115deg,#176bd4,#1488e5);color:#fff;box-shadow:0 10px 25px #176bd433}
+.digital-button span{color:#7af0e5}
+.digital-text-link{color:#315b82}
+.digital-proof{color:#547696}
+.digital-art-cover{aspect-ratio:16/9;min-height:0;height:auto;overflow:hidden;background:#082744;box-shadow:0 24px 60px #0c315520}
+.digital-art-cover img{display:block;width:100%;height:100%;aspect-ratio:16/9;object-fit:cover;object-position:center}
+.digital-services{background:linear-gradient(135deg,#e4f1ff 0%,#eff8ff 100%)}
+.digital-heading h2,.leadership-intro h2{color:#103763}
+.digital-service{background:#fff;border-color:#cfe1f2;box-shadow:0 14px 34px #153e6410}
+.digital-service h3{color:#123e6b}
+.service-no,.service-tag{color:#3974ad}
+.service-symbol{background:#e7f3ff;color:#1578de}
+.symbol-social,.symbol-campaign{color:#099bab}
+.budget-note{color:#55738e}
+.digital-approach{background:linear-gradient(125deg,#f7fbff 0%,#e9f4ff 100%)}
+.digital-approach-art{background:linear-gradient(145deg,#dceeff,#e4fbfb)}
+.approach-sun{background:#ffd16c;box-shadow:0 0 0 23px #ffd16c35}
+.approach-arc{border-color:#197be7;border-bottom:0}
+.arc-two{border-color:#12bfc4}
+.approach-v{color:#fff;text-shadow:0 3px 14px #123b7860}
+.process-list>div{border-top-color:#c9dff3;color:#466c91}
+.process-list b{color:#087de1}
+.process-list strong{color:#103763}
+.founder-section{background:linear-gradient(135deg,#e8f3ff 0%,#e9fbfb 100%)}
+.founder-photo{background:linear-gradient(145deg,#c5ddf8,#8ebdf2);color:#315d91}
+.founder-name{color:#103763}
+.founder-title{color:#2876c1}
+.founder-copy>p:not(.digital-eyebrow):not(.founder-edit-note),.leader-card .founder-copy>p:not(.founder-edit-note){color:#3f6284}
+.leader-card{background:#fff;border-color:#cfe1f2;box-shadow:0 12px 30px #153e640d}
+.digital-contact{background:linear-gradient(120deg,#0d3158 0%,#075a88 60%,#087c98 100%)}
+.digital-contact .digital-eyebrow{color:#b9dcff}
+.digital-contact .digital-eyebrow>span{background:#61e6df}
+.digital-contact>p:not(.digital-eyebrow){color:#d6e9f9}
+.digital-contact .digital-button{background:#fff;color:#103763}
+.digital-contact .digital-button span{color:#0aa9b9}
+.digital-footer{background:#f2f8fd;color:#456885}
+.digital-footer>a{color:#1474df}
+.digital-footer>span:last-child{border-left-color:#d2e2ef}
+
+.digital-approach-art{height:320px;position:relative;overflow:hidden;display:grid;place-items:center;background-color:#0d3158;background-image:linear-gradient(145deg,#09264420,#09264455),url("social-assets/Ventarra Digital Sunset Workspace.png");background-size:cover,175% auto;background-position:center,right center;background-repeat:no-repeat;box-shadow:0 22px 54px #10376320}
+.digital-approach-art .approach-cover{display:block;width:82%;height:auto;aspect-ratio:16/9;object-fit:cover;object-position:center;border:1px solid #ffffffb8;border-radius:5px;box-shadow:0 16px 36px #061b32a8}
+@media(max-width:600px){.digital-approach-art{height:auto;aspect-ratio:16/9;width:100%}.digital-approach-art .approach-cover{width:82%;height:auto;aspect-ratio:16/9;object-fit:cover}}
+
+/* Keep both Digital artworks a comfortable size and let the desktop photo show around the process cards. */
+.digital-art-cover{width:min(90%,520px);min-height:0;aspect-ratio:3/2;height:auto;justify-self:center;align-self:center;background:#082744;border-radius:3px}
+.digital-art-cover img{width:100%;height:100%;aspect-ratio:auto;object-fit:contain;object-position:center;}
+.digital-approach-art{height:300px;background-size:cover,cover;background-position:center,center}
+.digital-approach-art .approach-cover{width:86%;max-width:680px;height:auto;aspect-ratio:16/9;object-fit:contain;border:0;border-radius:0;box-shadow:none}
+@media(max-width:800px){.digital-art-cover{width:94%;max-width:500px}.digital-approach-art{height:250px}.digital-approach-art .approach-cover{width:96%}}
+@media(max-width:600px){.digital-art-cover{width:100%;aspect-ratio:3/2}.digital-approach-art{height:auto;aspect-ratio:16/9;min-height:0}.digital-approach-art .approach-cover{width:96%;max-width:none}}
 .leadership-intro{max-width:700px;margin:0 auto 28px;text-align:center}.leadership-intro .digital-eyebrow{justify-content:center}.leadership-intro h2{font:600 40px/1.08 var(--display);letter-spacing:-2px;color:#193c72;margin:0}.leadership-intro>p:last-child{font-size:11px;line-height:1.8;color:#586f90;margin:13px auto 0;max-width:480px}.leadership-grid{display:grid;grid-template-columns:1fr 1fr;gap:17px;max-width:980px;margin:0 auto}.leader-card{display:flex;align-items:center;gap:20px;padding:22px;background:#fff;border:1px solid #dce7f6;min-width:0}.leader-card .founder-photo{flex:none;width:138px;height:138px}.leader-card .founder-copy{min-width:0}.leader-card .founder-copy>p:not(.founder-edit-note){font-size:10px;line-height:1.75;color:#586f90;margin:13px 0 0}.leader-card .founder-name{font-size:17px;overflow-wrap:anywhere}.leader-card .founder-title{font-size:7px;line-height:1.5;letter-spacing:1px}.leader-card .aunt-photo{background:linear-gradient(145deg,#f6d6c8,#f3a77e);color:#8b5c4a}.founder-section>.founder-edit-note{text-align:center;font-size:9px;color:#7187a5;margin:16px auto 0;max-width:700px}
 @media(max-width:800px){.leadership-grid{gap:11px}.leader-card{padding:15px;gap:13px}.leader-card .founder-photo{width:108px;height:108px}.leader-card .founder-name{font-size:15px}}
 @media(max-width:600px){.leadership-intro h2{font-size:35px}.leadership-grid{grid-template-columns:1fr;width:100%}.leader-card{padding:17px;gap:17px}.leader-card .founder-photo{width:105px;height:105px}.founder-section>.founder-edit-note{text-align:left;line-height:1.7}}
