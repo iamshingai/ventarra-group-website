@@ -1,0 +1,29 @@
+#ventarra-assistant{--va-ink:#103763;--va-muted:#5e7891;--va-primary:#176fdf;--va-teal:#16b8bf;--va-line:#dce9f3;--va-surface:#fff;color:var(--va-ink);font:14px/1.5 "DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif}
+#ventarra-assistant *{box-sizing:border-box}
+.va-launcher{position:fixed;right:22px;bottom:22px;z-index:2147483000;display:flex;align-items:center;gap:8px;border:1px solid #ffffff65;border-radius:999px;padding:8px 17px 8px 8px;color:#fff;background:linear-gradient(120deg,#103763,#126d9b);box-shadow:0 9px 28px #10376340;font:700 14px "DM Sans",sans-serif;cursor:pointer;transition:transform .2s,box-shadow .2s}
+.va-launcher:hover{transform:translateY(-2px);box-shadow:0 13px 32px #1037634d}
+.va-launcher-mascot{width:40px;height:40px;object-fit:contain}
+.va-panel{position:fixed;right:22px;bottom:84px;z-index:2147483000;display:flex;flex-direction:column;width:min(400px,calc(100vw - 28px));height:min(630px,calc(100dvh - 112px));overflow:hidden;background:var(--va-surface);border:1px solid var(--va-line);border-radius:22px;box-shadow:0 20px 65px #10376330}
+.va-panel[hidden]{display:none}
+.va-header{display:flex;align-items:center;gap:11px;padding:13px 16px;color:#fff;background:linear-gradient(116deg,#103763 0%,#115f89 66%,#087c91 100%)}
+.va-mascot{display:block;width:59px;height:59px;flex:none;object-fit:contain;filter:drop-shadow(0 4px 7px #031a2f38);animation:va-float 4s ease-in-out infinite}
+.va-headings{min-width:0;flex:1}
+.va-title{font:800 18px/1.2 "Manrope","DM Sans",sans-serif;letter-spacing:.1px}
+.va-subtitle{margin-top:4px;color:#c7e3f3;font-size:11px}
+.va-close{width:34px;height:34px;border:1px solid #ffffff45;border-radius:50%;color:#fff;background:#ffffff12;font-size:22px;line-height:1;cursor:pointer}
+.va-close:hover{background:#ffffff25}
+.va-messages{display:flex;flex:1;flex-direction:column;gap:10px;overflow:auto;padding:17px 14px;background:radial-gradient(ellipse at top right,#e9f9fb 0,#f5f9fd 47%,#f7faff 100%)}
+.va-message{max-width:89%;padding:11px 13px;border:1px solid var(--va-line);border-radius:15px 15px 15px 5px;background:#fff;color:#274761;white-space:pre-wrap;overflow-wrap:anywhere;box-shadow:0 3px 10px #10376308}
+.va-message.user{align-self:flex-end;border-color:#176fdf;color:#fff;background:linear-gradient(120deg,#176fdf,#197fc8);border-radius:15px 15px 5px 15px}
+.va-actions{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}
+.va-action{display:inline-flex;align-items:center;justify-content:center;min-height:34px;padding:8px 11px;border:1px solid #cfe2f3;border-radius:999px;color:#155589;background:#eff8ff;font:600 11px/1.2 "DM Sans",sans-serif;text-align:center;text-decoration:none;cursor:pointer;transition:background .15s,border-color .15s}
+.va-action:hover{border-color:#79cbd5;background:#e5f9f8}
+.va-form{display:flex;gap:8px;padding:11px 12px 9px;border-top:1px solid var(--va-line);background:white}
+.va-input{min-width:0;flex:1;padding:11px 13px;border:1px solid #c9d8e6;border-radius:999px;outline:none;color:var(--va-ink);background:#fbfdff;font:13px "DM Sans",sans-serif}
+.va-input:focus{border-color:#319cc7;box-shadow:0 0 0 3px #24b6c31c}
+.va-send{padding:9px 15px;border:0;border-radius:999px;color:#fff;background:#176fdf;font:700 12px "DM Sans",sans-serif;cursor:pointer}
+.va-send:hover{background:#105dbd}
+.va-note{padding:0 14px 11px;color:#7890a4;font-size:10px;text-align:center;background:#fff}
+@keyframes va-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+@media(max-width:480px){.va-launcher{right:13px;bottom:13px}.va-panel{right:7px;bottom:70px;width:calc(100vw - 14px);height:calc(100dvh - 82px);border-radius:19px}.va-mascot{width:53px;height:53px}}
+@media(prefers-reduced-motion:reduce){.va-mascot{animation:none}.va-launcher,.va-action{transition:none}}

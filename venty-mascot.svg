@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-labelledby="title desc">
+  <title id="title">Venty, Ventarra Digital's friendly assistant</title>
+  <desc id="desc">A cheerful little blue and teal companion with a glowing sunrise halo and a warm smile.</desc>
+  <defs>
+    <linearGradient id="sky" x1="28" y1="18" x2="150" y2="163" gradientUnits="userSpaceOnUse"><stop stop-color="#D8F7FF"/><stop offset=".52" stop-color="#8DE5EA"/><stop offset="1" stop-color="#77A9F4"/></linearGradient>
+    <linearGradient id="body" x1="48" y1="53" x2="137" y2="145" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF"/><stop offset="1" stop-color="#E7F7FF"/></linearGradient>
+    <linearGradient id="visor" x1="59" y1="77" x2="124" y2="116" gradientUnits="userSpaceOnUse"><stop stop-color="#143967"/><stop offset="1" stop-color="#155D83"/></linearGradient>
+    <linearGradient id="sun" x1="66" y1="21" x2="114" y2="66" gradientUnits="userSpaceOnUse"><stop stop-color="#FFE6A3"/><stop offset="1" stop-color="#FFA977"/></linearGradient>
+    <filter id="shadow" x="22" y="30" width="136" height="145" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="8"/></filter>
+  </defs>
+  <ellipse cx="90" cy="153" rx="49" ry="9" fill="#144267" opacity=".16" filter="url(#shadow)"/>
+  <circle cx="90" cy="48" r="28" fill="url(#sun)" opacity=".95"/>
+  <path d="M90 8v10M42 48H31m118 0h-11M56 20l-7-8m75 8 7-8" fill="none" stroke="#F1A96E" stroke-width="4" stroke-linecap="round"/>
+  <path d="M46 84c0-23 18-41 41-41h6c23 0 41 18 41 41v24c0 25-20 45-45 45h-2c-25 0-45-20-45-45V84Z" fill="url(#body)" stroke="#fff" stroke-width="4"/>
+  <path d="M42 83c0-25 20-45 45-45h6c25 0 45 20 45 45v10c-10-8-25-13-48-13-19 0-35 4-48 11V83Z" fill="url(#sky)"/>
+  <path d="M54 84c0-7 6-13 13-13h46c7 0 13 6 13 13v27c0 8-6 14-14 14H68c-8 0-14-6-14-14V84Z" fill="url(#visor)"/>
+  <ellipse cx="76" cy="96" rx="5" ry="7" fill="#B8F8F2"/><ellipse cx="104" cy="96" rx="5" ry="7" fill="#B8F8F2"/>
+  <path d="M78 108c4 5 8 7 12 7s8-2 12-7" fill="none" stroke="#70E5D7" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="47" cy="99" r="7" fill="#91DCEB" stroke="#fff" stroke-width="3"/><circle cx="133" cy="99" r="7" fill="#91DCEB" stroke="#fff" stroke-width="3"/>
+  <path d="M71 135h38" stroke="#BBDDF0" stroke-width="4" stroke-linecap="round"/>
+  <path d="m143 43 3 7 7 3-7 3-3 7-3-7-7-3 7-3 3-7Zm-106 42 2.2 5.2 5.3 2.3-5.3 2.2L37 100l-2.2-5.3-5.3-2.2 5.3-2.3L37 85Z" fill="#fff"/>
+</svg>
